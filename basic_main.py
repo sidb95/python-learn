@@ -5,10 +5,12 @@ sbhatore95@gmail.com
 04.04.2024
 */
 
-def firstHundredNnumbers(void) {
-  for i in range(1..101):
-      print(i)
-      print("%\n")
+def firstHundredOnePercentages(void) {
+  f.open("HundredAndOnePercentages.txt")
+  for i in range(0..101):
+      f.write(i)
+      f.write("%\n")
+  f.close()
   return
 
 
