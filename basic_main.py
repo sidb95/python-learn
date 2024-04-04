@@ -6,7 +6,7 @@ sbhatore95@gmail.com
 */
 
 def firstHundredOnePercentages(void) {
-  f.open("HundredAndOnePercentages.txt")
+  f.open("HundredAndOnePercentages.txt", 'w')
   for i in range(0..101):
       f.write(i)
       f.write("%\n")
