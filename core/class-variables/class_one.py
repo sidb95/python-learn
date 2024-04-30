@@ -6,7 +6,7 @@
 # Solution for various hello world programs.
 
 class Solution:
-    def __init__(self, n, s="hi Prithvi"):
+    def __init__(self, n, s="hi Agni"):
       self.n = n
       self.s = strVar
       return self
